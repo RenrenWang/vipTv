@@ -1,0 +1,41 @@
+    <!--[if lt IE 9]><div class="itips-ie"><i class="am-icon-chain-broken"></i> 为了更好的观影，请升级或更新您的浏览器至<a href="http://se.360.cn/" target="_blank">360浏览器</a>或<a href="http://browsehappy.com/" target="_blank">Chrome</a>。</div><![endif]-->
+    
+	
+	<script type="text/javascript">
+    /*自适应 创建于 2017/8/7*/
+    var cpro_id = "u3054543";
+</script>
+<script type="text/javascript" src="http://cpro.baidustatic.com/cpro/ui/i.js"></script>
+
+	
+	
+	
+	
+	
+	
+	
+	<div class="hy-head-menu">
+        <div class="container">
+            <div class="row">
+                <div class="item">
+                    <div class="logo">
+                        <!-- <a class="hidden-sm hidden-xs" href="{maccms:path}"><img src="{maccms:path_tpl}i/img/logo.png" width="145" height="50"></a>
+                        <a class="visible-sm visible-xs" href="{maccms:path}"><img src="{maccms:path_tpl}i/img/logo_min.png" width="145" height="50"></a> -->
+                       <a class=" hidden-xs" href="{maccms:path}"><span style="font-size:40px;color:#09bb07;">VIP<span style="font-size:15px;color:#b1b1b1;">VOD</span></span></a>
+                        <a class="hidden-sm visible-xs" href="{maccms:path}"><span style="font-size:30px;color:#09bb07;">VIP<span style="font-size:12px;color:#b1b1b1;">VOD</span></span></a>
+                    
+                    </div>
+                    <div class="search hidden-sm">
+                        <form name="formsearch" id="formsearch" action='{maccms:link_search_vod}' method="post" autocomplete="off">
+                            <input class="form-control" placeholder="输入影片关键词..." name="wd" type="text" id="wd" required="">
+                            <input type="submit" id="searchbutton" value="" class="hide"><a href="javascript:" class="btns" title="搜索" onClick="$('#formsearch').submit();"><i class="icon iconfont icon-search"></i></a></form>
+                    </div>
+                    <ul class="menulist hidden-xs">
+                        <li{if-A:{maccms:siteaid}==10} class="active"{endif-A}><a href="{maccms:path}">首页</a></li>{maccms:menu type=parent}
+                        <li{if-A:{maccms:curvodtypeid}==[menu:id]} class="active" {endif-A}{if-A:{maccms:curvodtypepid}==[menu:id]} class="active" {endif-A}{if-A:[menu:id]=[vod:typepid]} class="active"{endif-A}><a href="[menu:link]">  [menu:name]</a></li>{/maccms:menu}
+                    
+					</ul>
+                </div>
+            </div>
+        </div>
+    </div>

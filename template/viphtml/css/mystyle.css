@@ -1,0 +1,25 @@
+.hy-index-menu li {
+ 
+    width: 25%;
+  
+}
+
+/* .hy-cascade .content-meun .head span:before,
+.hy-cascade .content-meun .head span:after{
+    content: '' !important;
+} */
+.hy-cascade .content-meun a {
+    padding: 10px 0 !important;
+}
+
+    .hy-cascade .content-meun .head {
+       
+        background-color: rgba(247, 247, 250, 0.5) !important;
+       
+    }
+ 
+    .hy-play-list .item .panel .playlist ul li a.active
+    {
+        background-color: #09bb07 !important;
+        color: #fff
+    }
